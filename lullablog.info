@@ -30,6 +30,9 @@ features[variable][] = menu_parent_lullablog
 features[variable][] = node_options_lullablog
 features[variable][] = node_preview_lullablog
 features[variable][] = node_submitted_lullablog
+<<<<<<< HEAD
 features[variable][] = site_frontpage
+=======
+>>>>>>> Adding
 features[views_view][] = lullablog
 features_exclude[dependencies][ctools] = ctools
