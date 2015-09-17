@@ -19,6 +19,15 @@ function lullablog_user_default_permissions() {
     'module' => 'lullablog',
   );
 
+  // Exported permission: 'create lullablog content'.
+  $permissions['create lullablog content'] = array(
+    'name' => 'create lullablog content',
+    'roles' => array(
+      'Lullabloger' => 'Lullabloger',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: 'delete any lullablog content'.
   $permissions['delete any lullablog content'] = array(
     'name' => 'delete any lullablog content',
