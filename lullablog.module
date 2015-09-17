@@ -27,5 +27,4 @@ function lullablog_form_lullablog_node_form_alter(&$form, &$form_state) {
 	if (user_access('administer lullablog status')) {
 		$form['options']['#access'] = TRUE;
 	}
-	dsm($form);
 }
